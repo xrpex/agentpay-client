@@ -1,0 +1,42 @@
+{
+  "name": "agentpay-client",
+  "version": "1.0.0",
+  "description": "One-line wrapper for AI agents to discover and call AgentPay tools with auto-payment on XRP Ledger",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "agentpay",
+    "xrp",
+    "xrpl",
+    "x402",
+    "ai-agent",
+    "pay-per-call",
+    "web3",
+    "crypto-payments",
+    "agent-tools",
+    "llm-tools"
+  ],
+  "author": "AgentPay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrpex/agentpay-client.git"
+  },
+  "homepage": "https://agentpay-frontend-theta.vercel.app",
+  "bugs": {
+    "url": "https://github.com/xrpex/agentpay-client/issues"
+  },
+  "dependencies": {
+    "xrpl": "^4.0.0",
+    "axios": "^1.6.0"
+  },
+  "peerDependencies": {
+    "xrpl": ">=4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
