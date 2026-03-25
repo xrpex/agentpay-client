@@ -12,5 +12,15 @@ Official npm client for [AgentPay](https://agentpay-frontend-theta.vercel.app) �
 
 ## 📦 Install
 
-```bash
 npm install agentpay-client
+
+## 💳 Two Ways to Pay
+
+### Option 1: Auto-Payment (Simple)
+
+Pass your wallet seed — the client handles everything:
+
+```javascript
+const result = await agentpay.call('web-scraper', { url: '...' }, {
+  walletSeed: process.env.XRP_SEED  // Never hardcode!
+});
