@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "One-line SDK for AI agents to discover and call AgentPay tools with automatic XRPL x402 payments.",
   "type": "module",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     }
   },
@@ -23,19 +21,20 @@
     "langchain", "autogen", "crewai", "mcp",
     "pay-per-call", "micropayments", "ai-tools"
   ],
-  "author": "AgentPay <officialagentpay@gmail.com>",
+  "author": "xrpex",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/xrpex/agentpay-client"
   },
-  "homepage": "https://agentpay-frontend-theta.vercel.app",
+  "homepage": "https://github.com/xrpex/agentpay-client#readme",
   "bugs": {
-    "url": "https://github.com/xrpex/agentpay-client/issues",
-    "email": "officialagentpay@gmail.com"
+    "url": "https://github.com/xrpex/agentpay-client/issues"
   },
   "files": ["dist", "README.md", "LICENSE"],
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "xrpl": "^4.0.0"
   },
