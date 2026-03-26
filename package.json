@@ -1,5 +1,5 @@
 {
-  "name": "agentpay-clientXRP",
+  "name": "@xrpex/agentpay-clientXRP",
   "version": "1.0.0",
   "description": "One-line SDK for AI agents to discover and call AgentPay tools with automatic XRPL x402 payments.",
   "type": "module",
